@@ -40,4 +40,4 @@ The file struct should originzed as:
 ```
 Excute `sh test.sh` can run the test program to produce the high-resolution results.
 
-If each step is right, the results will be shown in the `proc` folder. The results of [2023-12](https://drive.google.com/file/d/1iH5lD84n5VORjXLfAlbQTGHSbrJbpT9T/view?usp=drive_link) can download.
+If each step is right, the results will be shown in the `proc` folder. The results of [2023-12](https://drive.google.com/file/d/1iH5lD84n5VORjXLfAlbQTGHSbrJbpT9T/view?usp=drive_link) can be downloaded.
