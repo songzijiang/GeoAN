@@ -1,9 +1,9 @@
 # GeoAN
-The offical code of GeoAN (Downscaling Using Geopotential-Guided Attention Network for Historical Daily Meteorological Data Since 1940).
+The official code of [MDG625: A daily high-resolution meteorological dataset derived by geopotential-guided attention network in Asia (1940-2023)")]().
 
 The first draft of the paper has been submitted to [GRL](https://agupubs.onlinelibrary.wiley.com/journal/19448007).
 
-More details will be released when the papaer is in public, any question can be touch in jacksung@gmail.com
+More details will be released when the paper is in public, any questions can be touch by jacksung@gmail.com
 ## Data download
 
 1. The low resolution data ERA5 can be downloaded from [ECMWF](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form).
@@ -17,9 +17,9 @@ More details will be released when the papaer is in public, any question can be 
 [cldas_global_std_level](https://drive.google.com/file/d/1lCGvOzFT00DyVekyq4L4N-8Ymx_RqqFP/view?usp=drive_link), 
 [cldas_global_mean_level](https://drive.google.com/file/d/1QUxpgzHc14S4zbEORBRYeJin3pWZ-Mxy/view?usp=drive_link).
 ## Code run
-The configuation can be modified in the `configs/config.yml`.
+The configuration can be modified in the `configs/config.yml`.
 
-The file struct should originzed as:
+The file struct should organized as:
 ```
 |--data
     |--exclude
@@ -37,8 +37,8 @@ The file struct should originzed as:
        |--cldas_global_mean_level.npy
        |--geoan.pt
 ```
-Excute `sh test.sh` can run the test program to produce the high-resolution results.
+Execute `sh test.sh` can run the test program to produce high-resolution results.
 
-If each step is right, the results will be shown in the `proc` folder.
+The results will be shown in the `proc` folder if each step is right.
 
-The DOI of the produced dataset MDG625 is https://doi.org/10.57760/sciencedb.17408.
+The DOI of the produced dataset MDG625 is [10.57760/sciencedb.17408](https://doi.org/10.57760/sciencedb.17408).
