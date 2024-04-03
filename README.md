@@ -5,11 +5,10 @@ The first draft of the paper has been submitted to [GRL](https://agupubs.onlinel
 
 More details will be released when the papaer is in public, any question can be touch in jacksung@gmail.com
 ## Data download
-1. Pre-trained model can be downloaded in [Google Drive](https://drive.google.com/file/d/1BN7EE0uVov2b4sTpSP8EKlXIxE6lDetI/view?usp=drive_link).
 
-2. The low resolution data ERA5 can be downloaded from [ECMWF](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form).
+1. The low resolution data ERA5 can be downloaded from [ECMWF](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form).
 
-3. The downloaded data needs to be organized into the appropriate format. The order of the parameters is ['WIN', 'TMP', 'PRS', 'PRE'].
+2. The downloaded data needs to be organized into the appropriate format. The order of the parameters is ['WIN', 'TMP', 'PRS', 'PRE'].
 [Here are some examples in 2023-12](https://drive.google.com/file/d/1ExjsISNm1bWdUimhNEhu6duJRq9ejsoW/view?usp=drive_link).
 
 4. The mean and std data of the dataset can be downloaded by the following links:
@@ -40,4 +39,6 @@ The file struct should originzed as:
 ```
 Excute `sh test.sh` can run the test program to produce the high-resolution results.
 
-If each step is right, the results will be shown in the `proc` folder. The results of [2023-12](https://drive.google.com/file/d/1iH5lD84n5VORjXLfAlbQTGHSbrJbpT9T/view?usp=drive_link) can be downloaded.
+If each step is right, the results will be shown in the `proc` folder.
+
+The DOI of the produced dataset MDG625 is https://doi.org/10.57760/sciencedb.17408.
