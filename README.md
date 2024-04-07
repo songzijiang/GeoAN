@@ -1,9 +1,7 @@
 # GeoAN
 The official code of [MDG625: A daily high-resolution meteorological dataset derived by geopotential-guided attention network in Asia (1940-2023)"]().
 
-The draft of the paper has been submitted to [ESSD](https://essd.copernicus.org/).
-
-More details will be released when the paper is in public, any questions can be touched by jacksung1995@gmail.com
+Any questions can be touched by jacksung1995@gmail.com
 ## Data download
 
 1. The low resolution data ERA5 can be downloaded from [ECMWF](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form).
