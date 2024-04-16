@@ -37,7 +37,7 @@ class GeoAN(nn.Module):
         # f, x = rearrange(x, 'b c z h w->b (c z) h w'), rearrange(f, 'b c z h w->b (c z) h w')
         x = nn.functional.interpolate(x, size=[260, 400], mode='bilinear')
         f = nn.functional.interpolate(f, size=[260, 400], mode='bilinear')
-        f, x = self.head(x), self.head_f(f)
+        x, f = self.head(x), self.head_f(f)
         shortcut = x
         # body
         for idx, stage in enumerate(self.body):
