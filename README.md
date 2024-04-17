@@ -9,11 +9,7 @@ Any questions can be touched by jacksung1995@gmail.com
 2. The downloaded data needs to be organized into the appropriate format. The order of the parameters is ['WIN', 'TMP', 'PRS', 'PRE'].
 [Here are some examples in 2023-12](https://drive.google.com/file/d/1ExjsISNm1bWdUimhNEhu6duJRq9ejsoW/view?usp=drive_link).
 
-4. The mean and std data of the dataset can be downloaded by the following links:
-[era5_global_std_level](https://drive.google.com/file/d/1V-xV6QbjRalvtVsA04A6LOXWmvhbuUDR/view?usp=drive_link), 
-[era5_global_mean_level](https://drive.google.com/file/d/1qQQcfz9RQyW_KcKq_PH9_uWDfOz-mKMl/view?usp=drive_link), 
-[cldas_global_std_level](https://drive.google.com/file/d/1lCGvOzFT00DyVekyq4L4N-8Ymx_RqqFP/view?usp=drive_link), 
-[cldas_global_mean_level](https://drive.google.com/file/d/1QUxpgzHc14S4zbEORBRYeJin3pWZ-Mxy/view?usp=drive_link).
+3. The pre-trained model can be downloaded from [here](https://drive.google.com/file/d/1OVrGFcdHiZkKUFcyWm28QQAE8iDbA-Pk/view?usp=sharing).
 ## Code run
 The configuration can be modified in the `configs/config.yml`.
 
