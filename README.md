@@ -1,5 +1,5 @@
 # GeoAN
-The official code of [MDG625: A daily high-resolution meteorological dataset derived by geopotential-guided attention network in Asia (1940-2023)"]().
+The official code of [MDG625: a daily high-resolution meteorological dataset derived by geopotential-guided attention network in Asia (1940-2023)"](https://essd.copernicus.org/articles/17/1501/2025/essd-17-1501-2025-discussion.html).
 
 Any questions can be touched by jacksung1995@gmail.com
 ## Data download
