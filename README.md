@@ -7,9 +7,9 @@ Any questions can be touched by jacksung1995@gmail.com
 1. The low resolution data ERA5 can be downloaded from [ECMWF](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form).
 
 2. The downloaded data needs to be organized into the appropriate format. The order of the parameters is ['WIN', 'TMP', 'PRS', 'PRE'].
-[Here are some examples in 2023-12](https://drive.google.com/file/d/1ExjsISNm1bWdUimhNEhu6duJRq9ejsoW/view?usp=drive_link).
+Here are some examples in 2023-12[Google Drive](https://drive.google.com/file/d/1ExjsISNm1bWdUimhNEhu6duJRq9ejsoW/view?usp=drive_link)/[Quark Netdisk](https://pan.quark.cn/s/57f6641b65ac).
 
-3. The pre-trained model can be downloaded from [here](https://drive.google.com/file/d/1OVrGFcdHiZkKUFcyWm28QQAE8iDbA-Pk/view?usp=sharing).
+3. The pre-trained model can be downloaded from [Google Drive](https://drive.google.com/file/d/1OVrGFcdHiZkKUFcyWm28QQAE8iDbA-Pk/view?usp=sharing)/[Quark Netdisk](https://pan.quark.cn/s/77356b00a81c).
 ## Code run
 The configuration can be modified in the `configs/config.yml`.
 
